@@ -1,0 +1,107 @@
+.content-area section {
+    width: 100%;
+    margin-top: 6rem;
+    min-height: 580px;
+}
+
+#prices {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 100%;
+    height: 100%;
+
+    padding: 2rem;;
+}
+
+.bronze, .prata, .ouro {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.bronze {
+    background: var(--text-subtitle);
+    color: var(--background);
+    box-shadow: 2px 3px 8px black;
+}
+
+.prata {
+    background: var(--header);
+    box-shadow: 2px 3px 8px black;
+}
+
+.ouro {
+    background: var(--footer);
+    box-shadow: 2px 3px 8px black;
+}
+
+.title-price {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+.title-price h2 {
+    font-weight: 500;
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 0 1.4rem;
+}
+
+.title-price span {
+    font-weight: 400;
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 1rem;
+    margin-top: 0.8rem;
+    padding: 0 0.8rem;
+}
+
+.info-price {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+.info-price h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 0.5rem;
+}
+
+.info-price span {
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.btn-comprar {
+    width: 100%;
+    height: 5rem;
+
+    border: 0;
+    border-radius: 50px;
+    background: var(--body-content1);
+    color: var(--text-subtitle);
+
+    box-shadow: 0px 1px 5px black;
+
+    transition: filter 0.3s;
+}
+
+.btn-comprar:hover {
+    filter: brightness(0.9);
+    text-decoration: underline;
+}
