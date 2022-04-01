@@ -1,0 +1,32 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 3rem;
+
+    position: realtive;
+    bottom: 0;
+    padding: 0.8rem;
+
+    background: var(--footer);
+}
+
+.dev-by {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    font-weight: 300;
+    font-size: 1rem;
+    color: var(--text-subtitle);
+}
+
+.dev-by a {
+    color: var(--text-subtitle);
+    font-weight: 500;
+    font-size: 1rem;
+
+}

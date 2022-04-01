@@ -1,0 +1,52 @@
+:root {
+  font-size: 93.75%;
+
+  --text-title: #ffffff;
+  --text-subtitle: #ebebeb;
+
+  --background: #4f537d;
+  --header: #2f324b;
+  --body-content1: #3f4364;
+  --footer: #1f2132;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;;
+}
+
+body {
+  height: 100vh;
+  background: var(--background);
+  color: var(--text-title);
+}
+
+main {
+  min-height: 600px;
+}
+
+body,
+input,
+button,
+textarea,
+a {
+  font: 400 1.5rem/1 "Roboto", sans-serif;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  text-align: left;
+}

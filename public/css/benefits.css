@@ -1,0 +1,105 @@
+.content-area {
+    align-items: flex-start;
+}
+
+.content-area section {
+    width: 100%;
+    margin-top: 6rem;
+    min-height: 580px;
+
+    display: flex;
+    justify-content: center;
+}
+
+#beneficios {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+#beneficios h2 {
+    font-weight: 500;
+    font-size: 3.5rem;
+    padding: 1rem;
+}
+
+#beneficios table {
+    margin-bottom: 2rem;
+
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#beneficios th, td {
+    border-bottom: 1px solid var(--text-subtitle);
+    padding: 2rem;  
+}
+
+#beneficios thead {
+    height: 8rem;
+}
+
+#beneficios thead tr th:first-child {
+    width: 40%;
+    font-weight: 700;
+    font-size: 1.9rem;
+    text-align: left;
+}
+
+#beneficios thead tr th {
+    width: 20%;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#beneficios tbody tr th {
+    width: 40%;
+    font-weight: 700;
+    font-size: 1.5rem
+}
+
+#beneficios tbody tr td {
+    width: 20%;
+    font-weight: 300;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.positivo {
+    background: var(--body-content1);
+}
+
+.negativo {
+    background: var(--header);
+}
+
+.btn-precos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14rem;
+    height: 4rem;
+
+    border: 0;
+    border-radius: 50px;
+
+    background: var(--body-content1);
+    color: var(--text-title);
+
+    padding: 0.5rem;
+    font-weight: 400;
+    font-size: 1rem;
+    text-decoration: none;
+
+    align-self: center;
+    box-shadow: 0px 1px 5px var(--footer);
+    transition: background-color 0.5s;
+}
+
+.btn-precos:hover {
+    background: var(--footer);
+}
+
